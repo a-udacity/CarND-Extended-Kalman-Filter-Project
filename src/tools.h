@@ -2,6 +2,13 @@
 #define TOOLS_H_
 #include <vector>
 #include "Eigen/Dense"
+#include <iomanip>
+#include <fstream>
+#include <string>
+#include <sstream>
+#include <cmath>
+#include <cstddef>
+#include<iomanip>
 
 class Tools {
 public:
