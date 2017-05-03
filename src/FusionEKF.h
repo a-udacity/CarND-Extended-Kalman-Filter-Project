@@ -48,7 +48,7 @@ private:
     Eigen::MatrixXd H_laser_;
     Eigen::MatrixXd Hj_;
 
-    void processCovariance(const MeasurementPackage &measurement_pack);
+    void ProcessCovariance(const MeasurementPackage &measurement_pack);
 };
 
 #endif /* FusionEKF_H_ */
